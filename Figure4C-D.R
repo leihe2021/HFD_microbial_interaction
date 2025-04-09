@@ -23,7 +23,7 @@ ggplot(input, aes(x = group, y = Value, colour = group)) +
   theme_classic() +
   theme(legend.position = "none")
 #----------------------------------
-# fig 4D PCo plot
+# figure 4D PCo plot
 # calculate beta-diversity
 #----------------------------------
 dataset$cal_betadiv()
